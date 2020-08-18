@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tips {
+    text-align: center;
+    padding-top: 23px;
+    margin-bottom: -54px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 500px;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+#chess {
+    position: relative;
+    width: 762px;
+    height: 762px;
+    margin: 50px auto 0px auto;
+    background-image: url("img/timg.jpg");
+    background-size: 100% 100%;
+}
+
+.grid {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-origin: content-box;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    line-height: 50px;
+    text-align: center;
+    color: aqua;
+}
+
+#AIflag {
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: aqua;
+    line-height: 50px;
+    cursor: pointer;
+    font-weight: bolder;
+}
